@@ -1,0 +1,3 @@
+[submodule "TimeGAN"]
+	path = TimeGAN
+	url = https://github.com/jsyoon0823/TimeGAN.git
