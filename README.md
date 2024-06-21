@@ -1,5 +1,6 @@
 # Fault_Detection
 Fault Detection in Pneumatic Systems
+
 TimeGAN class definition:
 
 TimeGAN class is defined to encapsulate the functionality of a TimeGAN model.
