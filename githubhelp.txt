@@ -1,0 +1,64 @@
+Ensure you have Git installed on your computer.
+Have a GitHub account.
+Be added as a collaborator to the GitHub repository you are working on.
+
+Initial Setup (One Time Only):
+1.Clone the Repository: 
+git clone https://github.com/username/repository.git
+2.Navigate to the Repository:
+cd repository
+
+Making Changes and Pushing to GitHub:
+1.Check the Current Status:
+git status
+2.Add Changes to Staging: it adds any new files you have created/Changes
+git add .
+#. symbolises all files, specific files can also be chosen with its path
+3.Commit Your Changes:
+git commit -m "Your commit message"
+Replace "Your commit message" with a meaningful message describing what you have changed.
+4.Pull the Latest Changes from the Remote Repository:
+git pull origin main
+5.Push Your Changes to GitHub:
+git push origin main
+
+CREATING BRANCHES:
+Branches allow developers to isolate their work from others and from the main codebase (usually the main or master branch).
+Multiple developers can work simultaneously on different branches. Each branch can have its own set of changes, commits, and history.
+Branches are particularly useful for developing new features or functionalities. A developer can create a dedicated branch for a specific feature, work on it independently, and collaborate with others if needed
+Similarly, branches are beneficial for bug fixing. If a critical bug is found in the main branch, a developer can create a bug-fix branch, apply the necessary changes, and test them thoroughly
+Branches facilitate code reviews and collaboration. Before merging changes into the main branch, developers can request reviews from peers. Reviewers can examine the changes made on the branch, provide feedback, suggest improvements, and ensure code quality. 
+Branches also support experimentation and testing of new ideas or approaches. Developers can create temporary branches to try out different solutions or configurations without affecting the main codebase
+For software releases, branches play a crucial role in managing different versions and releases. Typically, a release branch is created from the main development branch (e.g., main) to stabilize the code for a specific release.
+
+
+1.Navigate to Your Local Repository: using cd
+2.Create a New Branch:Replace your-branch-name with a descriptive name for your branch. 
+git checkout -b your-branch-name
+3.Make Your Changes
+4.Add Changes to Staging: 
+git add .
+5.Commit Your Changes:
+git commit -m "Description of the changes you made"
+
+Push Your Branch to GitHub:
+git push origin your-branch-name
+Check the Branches:
+git branch
+
+RAISING A PULL REQUEST:
+
+Go to GitHub:
+Open your repository on GitHub in your web browser.
+
+Navigate to the Branch:
+Select the branch you just pushed from the branch dropdown menu.
+
+Open a Pull Request:
+
+Click the New pull request button.
+Ensure the base branch is main (or whatever branch you want to merge into) and the compare branch is your branch.
+Add a title and description for your pull request. The title should be concise but descriptive, and the description should explain what changes you made and why.
+Create the Pull Request:
+Click the Create pull request button.
+
