@@ -1,5 +1,12 @@
+python : version 3.3 or higher 
 numpy
 pandas
 scikit-learn
 tensorflow
 TimeGAN(added as submodule, should work)
+Ensure python virtual environment is activated before doing anythin):
+    pip install virtualenv
+    python3 -m venv env #command to create virtual environment (use python -m venv env if this does not work)
+    #to activate the environment use following commands
+    windows: env\Scripts\activate #env is name of virtual environment
+    linux : source venv/bin/activate
