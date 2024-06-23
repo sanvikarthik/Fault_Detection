@@ -2,7 +2,7 @@
 # Fault Detection in Pneumatic Systems
 
  ![TimeGAN](https://img.icons8.com/color/48/000000/time.png)
- ![MATLAB](https://img.icons8.com/color/48/000000/matlab.png)
+![MATLAB](https://skillicons.dev/icons?i=matlab)
  ![Python](https://img.icons8.com/color/48/000000/python.png)
  
 ## Overview

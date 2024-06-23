@@ -1,12 +1,25 @@
-python : version 3.3 or higher 
+# Python version 3.3 or higher
+python>=3.3
+
+# Required packages
 numpy
 pandas
 scikit-learn
 tensorflow
-TimeGAN(added as submodule, should work)
-Ensure python virtual environment is activated before doing anythin):
-    pip install virtualenv
-    python3 -m venv env #command to create virtual environment (use python -m venv env if this does not work)
-    #to activate the environment use following commands
-    windows: env\Scripts\activate #env is name of virtual environment
-    linux : source venv/bin/activate
+
+# Submodule (TimeGAN)
+# You typically don't specify submodules in a requirements.txt directly,
+# but ensure it is correctly configured and installed as needed.
+
+# Installation instructions:
+# 1. Install virtualenv if not already installed:
+#    pip install virtualenv
+#
+# 2. Create a virtual environment named 'env':
+#    python -m venv env    # or 'python3 -m venv env' on some systems
+#
+# 3. Activate the virtual environment:
+#    Windows: env\Scripts\activate
+#    Linux: source env/bin/activate
+
+# Note: Activate the virtual environment before installing packages with 'pip install'.
