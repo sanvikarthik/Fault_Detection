@@ -15,7 +15,7 @@ This project focuses on developing a fault detection system for pneumatic system
 ### TimeGAN Model: 
 Generates synthetic time-series data crucial for training the fault detection model.
 
-![MATLAB](https://img.icons8.com/color/48/000000/matlab.png)
+![MATLAB](https://skillicons.dev/icons?i=matlab)
 ### MATLAB Integration: 
 Utilizes MATLAB for specific algorithm implementations and analysis.
 
@@ -105,4 +105,4 @@ The above methods have been used to generate artificial/Synthetic data for pneum
 Testing, Training, and Validation sets contains cleaned data of pneumatic systems for predictive maint
 
 
->>>>>>> ed39362ed5fbce04434bcbf01b5f3113fe45b6cf
+
