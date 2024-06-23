@@ -66,9 +66,13 @@ Use the TimeGAN model to generate synthetic time-series data.
 
 ## Contributors
 Ritheesh R M
+
 Anirudh K N 
+
 Divyesh Reddy 
+
 Srinikethan 
+
 Sanvi Karthik 
 
 
