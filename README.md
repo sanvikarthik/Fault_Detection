@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Fault Detection in Pneumatic Systems
 
  ![TimeGAN](https://img.icons8.com/color/48/000000/time.png)
