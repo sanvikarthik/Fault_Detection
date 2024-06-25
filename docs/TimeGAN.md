@@ -20,6 +20,7 @@ The actual training loop is currently a placeholder (pass statement). generate m
 ### Steps
 
 **Reads CSV files** (training_set _labelled.csv, validation_set _labelled.csv, testing_set _labelled.csv) containing data. Cleans each dataset using clean_data function to ensure numeric compatibility.
+
 **Scales the cleaned training and validation data**  using MinMaxScaler. Initializes a TimeGAN model (timegan_model) with specified parameters.
 
 **Trains the TimeGAN model** on the scaled training data (train_data_scaled) for 100 epochs with a batch size of 64.
